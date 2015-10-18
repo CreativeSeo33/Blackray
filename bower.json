@@ -1,0 +1,25 @@
+{
+  "name": "blackray",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap-sass": "latest",
+    "font-awesome": "latest"
+  },
+  "authors": [
+    "CreativeSeo33 <alexeyfedotof@gmail.com>"
+  ],
+  "description": "blackray landing page",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev/libs/",
+    "test",
+    "tests"
+  ]
+}

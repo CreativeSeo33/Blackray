@@ -1,0 +1,146 @@
+@import "variables";
+@import "mixins";
+@import "bootstrap";
+@import "../libs/font-awesome/css/font-awesome.min.css";
+
+//HEADER
+
+nav {
+	background-color: $dark;
+	height: 120px;
+	line-height: 120px;
+}
+.logo {
+	height: 100%;
+}
+.phone-header {
+	color: #fff;
+	font-size: 18px;
+}
+
+//HEADER
+
+.block-top {
+	background-image: url(../img/BG_top.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	&-offer {
+			
+		height: 100vh;
+		position: relative;
+		width: 100%;
+		&-text {
+			color: #fff;
+			font-size: 42px;
+			font-weight: 700;
+			font-family: $font-tale;
+			text-transform: uppercase;
+			@include centerer(false, true);
+			i {
+				font-weight: 300;
+				font-size: 28px;
+			}
+			ul li {
+				list-style-type: none;
+				font-size: 20px;
+				text-transform: none;
+				font-family: $font-family-base;
+				font-weight: 400;
+				span {
+					color:$blue;
+				}
+			}
+		}	
+	}
+
+}
+
+.block-2 {
+	background-image: url(../img/BG2.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	&-zag {
+		text-align: center;
+		font-size: 70px;
+		font-weight: 700;
+		font-family: $font-tale;
+		color: $dark;
+		text-transform: uppercase;
+		padding-top: 30px;
+		line-height: 1em;
+	}
+	&-left {
+		position: relative;
+		height: 70vh;
+		width: 100%;
+		text-align: right;
+		&-text {			
+			padding: 20px 80px 20px 20px;
+			border-right: 1px solid #fff;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: $font-tale;
+			font-size: 28px;
+			width: 100%;
+			@include centerer(false, true);
+			&-h2 {
+				padding-bottom: 50px;
+			}
+			ul {
+				li {
+				list-style-type: none;
+				font-size: 20px;
+				text-transform: none;
+				font-family: $font-family-base;
+				font-weight: 400;	
+				width: 100%;			
+				}
+			}
+			
+		}
+	}
+	&-right {
+		position: relative;
+		height: 70vh;
+		width: 100%;
+		&-text {			
+			padding: 20px 20px 20px 80px;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: $font-tale;
+			font-size: 28px;
+			width: 100%;
+			@include centerer(false, true);
+			&-h2 {
+				padding-bottom: 50px;
+			}
+			ul {
+				padding: 0;
+				li {
+				list-style-type: none;
+				font-size: 20px;
+				text-transform: none;
+				font-family: $font-family-base;
+				font-weight: 400;				
+				}
+			}
+		}
+	}
+}
+
+footer {
+	background-color: $dark;
+	height: 160px;
+	line-height: 160px;
+	color: #fff;
+	.footer-year {
+		text-align: center;
+		font-family: $font-tale;
+		font-weight: 700;
+		font-size: 32px;
+	}
+}
