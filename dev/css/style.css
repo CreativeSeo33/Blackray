@@ -4758,10 +4758,22 @@ footer {
   background-color: #000;
   height: 160px;
   line-height: 160px;
-  color: #fff; }
-  /* line 140, ../sass/style.scss */
-  footer .footer-year {
-    text-align: center;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 700;
-    font-size: 32px; }
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px; }
+
+/* line 144, ../sass/style.scss */
+.footer-year {
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 32px; }
+
+/* line 158, ../sass/style.scss */
+.footer-site {
+  font-size: 22px; }
+
+/* line 161, ../sass/style.scss */
+.footer-site span {
+  font-size: 14px;
+  font-weight: 400; }

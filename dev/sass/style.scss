@@ -136,11 +136,29 @@ footer {
 	background-color: $dark;
 	height: 160px;
 	line-height: 160px;
-	color: #fff;
-	.footer-year {
+	color: #fff;	
+	font-weight: 700;
+	font-size: 32px;
+}
+.footer {
+	&-year {
 		text-align: center;
 		font-family: $font-tale;
 		font-weight: 700;
 		font-size: 32px;
+	&-site {
+		
+		span {
+			
+
+		}
 	}
+}
+}
+.footer-site {
+	font-size: 22px;
+}
+.footer-site span {
+	font-size: 14px;
+	font-weight: 400;
 }
