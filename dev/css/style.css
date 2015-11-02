@@ -4703,13 +4703,55 @@ nav {
             color: #0198F3; }
 
 /* line 91, ../sass/style.scss */
+.navbar-button {
+  margin-right: 55px;
+  color: #fff;
+  background-color: #009fff;
+  border-color: #009fff;
+  padding: 10px 35px;
+  font-size: 16px;
+  line-height: 1em;
+  border-radius: 1px; }
+  /* line 11, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .navbar-button:focus, .navbar-button.focus {
+    color: #fff;
+    background-color: #007fcc;
+    border-color: #005080; }
+  /* line 17, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .navbar-button:hover {
+    color: #fff;
+    background-color: #007fcc;
+    border-color: #0079c2; }
+  /* line 22, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .navbar-button:active, .navbar-button.active, .open > .navbar-button.dropdown-toggle {
+    color: #fff;
+    background-color: #007fcc;
+    border-color: #0079c2; }
+    /* line 29, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+    .navbar-button:active:hover, .navbar-button:active:focus, .navbar-button:active.focus, .navbar-button.active:hover, .navbar-button.active:focus, .navbar-button.active.focus, .open > .navbar-button.dropdown-toggle:hover, .open > .navbar-button.dropdown-toggle:focus, .open > .navbar-button.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #0069a8;
+      border-color: #005080; }
+  /* line 37, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .navbar-button:active, .navbar-button.active, .open > .navbar-button.dropdown-toggle {
+    background-image: none; }
+  /* line 45, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .navbar-button.disabled, .navbar-button.disabled:hover, .navbar-button.disabled:focus, .navbar-button.disabled.focus, .navbar-button.disabled:active, .navbar-button.disabled.active, .navbar-button[disabled], .navbar-button[disabled]:hover, .navbar-button[disabled]:focus, .navbar-button[disabled].focus, .navbar-button[disabled]:active, .navbar-button[disabled].active, fieldset[disabled] .navbar-button, fieldset[disabled] .navbar-button:hover, fieldset[disabled] .navbar-button:focus, fieldset[disabled] .navbar-button.focus, fieldset[disabled] .navbar-button:active, fieldset[disabled] .navbar-button.active {
+    background-color: #009fff;
+    border-color: #009fff; }
+  /* line 56, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .navbar-button .badge {
+    color: #009fff;
+    background-color: #fff; }
+
+/* line 97, ../sass/style.scss */
 .block-2 {
   background-image: url(../img/BG2.jpg);
   background-size: cover;
   height: 100vh;
   width: 100%;
   position: relative; }
-  /* line 97, ../sass/style.scss */
+  /* line 103, ../sass/style.scss */
   .block-2-zag {
     text-align: center;
     font-size: 70px;
@@ -4719,7 +4761,7 @@ nav {
     text-transform: uppercase;
     padding-top: 30px;
     line-height: 1em; }
-  /* line 107, ../sass/style.scss */
+  /* line 113, ../sass/style.scss */
   .block-2-center {
     font-size: 18px;
     margin-top: 6%;
@@ -4727,84 +4769,84 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-    /* line 113, ../sass/style.scss */
+    /* line 119, ../sass/style.scss */
     .block-2-center ul {
       padding-left: 0; }
-      /* line 115, ../sass/style.scss */
+      /* line 121, ../sass/style.scss */
       .block-2-center ul li {
         list-style-type: none;
         padding: 8px 0;
         vertical-align: bottom; }
-        /* line 119, ../sass/style.scss */
+        /* line 125, ../sass/style.scss */
         .block-2-center ul li img {
           margin-right: 14px;
           float: left; }
-  /* line 126, ../sass/style.scss */
+  /* line 132, ../sass/style.scss */
   .block-2-left, .block-2-right {
     float: left;
     color: #fff;
     padding: 20px 70px;
     width: 50%;
     padding-bottom: 14%; }
-  /* line 133, ../sass/style.scss */
+  /* line 139, ../sass/style.scss */
   .block-2-left {
     border-right: 2px solid #fff; }
-  /* line 137, ../sass/style.scss */
+  /* line 143, ../sass/style.scss */
   .block-2-left-text-h2, .block-2-right-text-h2 {
     font-family: "Bebas Neue Bold", sans-serif;
     font-weight: 300;
     font-size: 24px;
     text-transform: uppercase;
     padding: 20px 0 40px 0; }
-  /* line 144, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   .block-2-left-text-h2 {
     text-align: right; }
-  /* line 147, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   .block-2-right-text-h2 {
     text-align: left; }
-  /* line 150, ../sass/style.scss */
+  /* line 156, ../sass/style.scss */
   .block-2-left-text {
     text-align: right; }
-  /* line 153, ../sass/style.scss */
+  /* line 159, ../sass/style.scss */
   .block-2-right-text {
     text-align: left; }
-    /* line 155, ../sass/style.scss */
+    /* line 161, ../sass/style.scss */
     .block-2-right-text li {
       margin-bottom: 40px; }
 
-/* line 161, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .block-3 {
   height: 100vh;
   width: 100%;
   position: relative;
   background-color: #000;
   padding-top: 120px; }
-  /* line 167, ../sass/style.scss */
+  /* line 173, ../sass/style.scss */
   .block-3-wrap {
     position: relative;
     height: 60vh; }
-  /* line 171, ../sass/style.scss */
+  /* line 177, ../sass/style.scss */
   .block-3-feat-1, .block-3-feat-3, .block-3-feat-6 {
     position: absolute;
     width: 50%; }
-  /* line 175, ../sass/style.scss */
+  /* line 181, ../sass/style.scss */
   .block-3-feat-1 {
     top: 50px;
     left: 100px; }
-  /* line 179, ../sass/style.scss */
+  /* line 185, ../sass/style.scss */
   .block-3-feat-3 {
     top: 170px;
     left: 340px; }
-  /* line 184, ../sass/style.scss */
+  /* line 190, ../sass/style.scss */
   .block-3-feat-6 {
     top: 310px;
     left: 615px; }
-  /* line 188, ../sass/style.scss */
+  /* line 194, ../sass/style.scss */
   .block-3-feat-number {
     float: left;
     margin-right: 10px;
     display: inline; }
-  /* line 197, ../sass/style.scss */
+  /* line 203, ../sass/style.scss */
   .block-3-feat-text {
     color: #fff;
     font-size: 36px;
@@ -4818,21 +4860,66 @@ nav {
     padding: 0;
     border: 0;
     display: inline-block; }
-  /* line 212, ../sass/style.scss */
+  /* line 218, ../sass/style.scss */
   .block-3-bottom {
     clear: both;
     color: #fff;
     text-align: right;
     font-size: 18px;
     font-weight: normal; }
-    /* line 218, ../sass/style.scss */
+    /* line 224, ../sass/style.scss */
     .block-3-bottom ul {
       padding-left: 0; }
-      /* line 220, ../sass/style.scss */
+      /* line 226, ../sass/style.scss */
       .block-3-bottom ul li {
         list-style-type: none; }
 
-/* line 227, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
+.block-4 {
+  padding: 30px 0 50px 0; }
+  /* line 236, ../sass/style.scss */
+  .block-4-h2, .block-4-h3 {
+    text-align: center;
+    font-family: "Bebas Neue Bold", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase; }
+  /* line 242, ../sass/style.scss */
+  .block-4-h2 {
+    font-size: 48px; }
+  /* line 245, ../sass/style.scss */
+  .block-4-h3 {
+    font-size: 28px;
+    margin-bottom: 30px; }
+  /* line 249, ../sass/style.scss */
+  .block-4-description {
+    margin: 40px 0;
+    font-size: 16px; }
+    /* line 252, ../sass/style.scss */
+    .block-4-description-punkt {
+      padding: 2px 0; }
+      /* line 254, ../sass/style.scss */
+      .block-4-description-punkt span {
+        font-weight: bold; }
+    /* line 258, ../sass/style.scss */
+    .block-4-description-authors {
+      margin-top: 30px; }
+    /* line 261, ../sass/style.scss */
+    .block-4-description-author {
+      padding: 2px 0; }
+      /* line 263, ../sass/style.scss */
+      .block-4-description-author span {
+        font-weight: bold; }
+
+/* line 270, ../sass/style.scss */
+.slider {
+  margin-top: 50px; }
+
+/* line 273, ../sass/style.scss */
+.bx-wrapper .bx-viewport {
+  border: none;
+  box-shadow: none; }
+
+/* line 278, ../sass/style.scss */
 footer {
   background-color: #000;
   height: 160px;
@@ -4841,18 +4928,18 @@ footer {
   font-weight: 700;
   font-size: 32px; }
 
-/* line 236, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .footer-year {
   text-align: center;
   font-family: "Bebas Neue Bold", sans-serif;
   font-weight: normal;
   font-size: 32px; }
 
-/* line 250, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .footer-site {
   font-size: 22px; }
 
-/* line 253, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .footer-site span {
   font-size: 14px;
   font-weight: 400; }
