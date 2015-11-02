@@ -327,7 +327,7 @@ html {
 
 /* line 27, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "GloberBold", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -4625,135 +4625,214 @@ button.close {
   /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 8, ../sass/style.scss */
+/* line 6, ../sass/style.scss */
+body {
+  font-family: "GloberBold", sans-serif;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("fonts/Bebas Neue Bold"), url("fonts/BEBASNEUE BOLD.woff") format("woff"); }
+@font-face {
+  font-family: "GloberThin";
+  src: url("fonts/GloberThin/GloberThin.eot");
+  src: url("fonts/GloberThin/GloberThin.eot?#iefix") format("embedded-opentype"), url("fonts/GloberThin/GloberThin.woff") format("woff"), url("fonts/GloberThin/GloberThin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "GloberBold";
+  src: url("fonts/GloberBold/GloberBold.eot");
+  src: url("fonts/GloberBold/GloberBold.eot?#iefix") format("embedded-opentype"), url("fonts/GloberBold/GloberBold.woff") format("woff"), url("fonts/GloberBold/GloberBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* line 36, ../sass/style.scss */
 nav {
   background-color: #000;
   height: 120px;
   line-height: 120px; }
 
-/* line 13, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .logo {
   height: 100%; }
 
-/* line 16, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .phone-header {
   color: #fff;
   font-size: 18px; }
 
-/* line 23, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .block-top {
   background-image: url(../img/BG_top.jpg);
   background-size: cover;
   height: 100vh;
   width: 100%;
   position: relative; }
-  /* line 29, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .block-top-offer {
     height: 100vh;
     position: relative;
     width: 100%; }
-    /* line 34, ../sass/style.scss */
+    /* line 62, ../sass/style.scss */
     .block-top-offer-text {
       color: #fff;
       font-size: 42px;
       font-weight: 700;
-      font-family: "PT Sans Narrow", sans-serif;
+      font-family: "Bebas Neue Bold", sans-serif;
       text-transform: uppercase;
       position: absolute;
       top: 50%;
       transform: translate(0, -50%); }
-      /* line 41, ../sass/style.scss */
+      /* line 69, ../sass/style.scss */
       .block-top-offer-text i {
         font-weight: 300;
         font-size: 28px; }
-      /* line 45, ../sass/style.scss */
-      .block-top-offer-text ul li {
-        list-style-type: none;
-        font-size: 20px;
-        text-transform: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400; }
-        /* line 51, ../sass/style.scss */
-        .block-top-offer-text ul li span {
-          color: #0198F3; }
+      /* line 73, ../sass/style.scss */
+      .block-top-offer-text ul {
+        padding-left: 0; }
+        /* line 75, ../sass/style.scss */
+        .block-top-offer-text ul li {
+          list-style-type: none;
+          font-size: 20px;
+          text-transform: none;
+          font-family: "GloberBold", sans-serif;
+          font-weight: 400; }
+          /* line 81, ../sass/style.scss */
+          .block-top-offer-text ul li span {
+            color: #0198F3; }
 
-/* line 60, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .block-2 {
   background-image: url(../img/BG2.jpg);
   background-size: cover;
   height: 100vh;
   width: 100%;
   position: relative; }
-  /* line 66, ../sass/style.scss */
+  /* line 97, ../sass/style.scss */
   .block-2-zag {
     text-align: center;
     font-size: 70px;
     font-weight: 700;
-    font-family: "PT Sans Narrow", sans-serif;
+    font-family: "Bebas Neue Bold", sans-serif;
     color: #000;
     text-transform: uppercase;
     padding-top: 30px;
     line-height: 1em; }
-  /* line 76, ../sass/style.scss */
-  .block-2-left {
-    position: relative;
-    height: 70vh;
-    width: 100%;
-    text-align: right; }
-    /* line 81, ../sass/style.scss */
-    .block-2-left-text {
-      padding: 20px 80px 20px 20px;
-      border-right: 1px solid #fff;
-      color: #fff;
-      text-transform: uppercase;
-      font-family: "PT Sans Narrow", sans-serif;
-      font-size: 28px;
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(0, -50%); }
-      /* line 90, ../sass/style.scss */
-      .block-2-left-text-h2 {
-        padding-bottom: 50px; }
-      /* line 94, ../sass/style.scss */
-      .block-2-left-text ul li {
+  /* line 107, ../sass/style.scss */
+  .block-2-center {
+    font-size: 18px;
+    margin-top: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    /* line 113, ../sass/style.scss */
+    .block-2-center ul {
+      padding-left: 0; }
+      /* line 115, ../sass/style.scss */
+      .block-2-center ul li {
         list-style-type: none;
-        font-size: 20px;
-        text-transform: none;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        width: 100%; }
-  /* line 106, ../sass/style.scss */
-  .block-2-right {
-    position: relative;
-    height: 70vh;
-    width: 100%; }
-    /* line 110, ../sass/style.scss */
-    .block-2-right-text {
-      padding: 20px 20px 20px 80px;
-      color: #fff;
-      text-transform: uppercase;
-      font-family: "PT Sans Narrow", sans-serif;
-      font-size: 28px;
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(0, -50%); }
-      /* line 118, ../sass/style.scss */
-      .block-2-right-text-h2 {
-        padding-bottom: 50px; }
-      /* line 121, ../sass/style.scss */
-      .block-2-right-text ul {
-        padding: 0; }
-        /* line 123, ../sass/style.scss */
-        .block-2-right-text ul li {
-          list-style-type: none;
-          font-size: 20px;
-          text-transform: none;
-          font-family: "Roboto", sans-serif;
-          font-weight: 400; }
+        padding: 8px 0;
+        vertical-align: bottom; }
+        /* line 119, ../sass/style.scss */
+        .block-2-center ul li img {
+          margin-right: 14px;
+          float: left; }
+  /* line 126, ../sass/style.scss */
+  .block-2-left, .block-2-right {
+    float: left;
+    color: #fff;
+    padding: 20px 70px;
+    width: 50%;
+    padding-bottom: 14%; }
+  /* line 133, ../sass/style.scss */
+  .block-2-left {
+    border-right: 2px solid #fff; }
+  /* line 137, ../sass/style.scss */
+  .block-2-left-text-h2, .block-2-right-text-h2 {
+    font-family: "Bebas Neue Bold", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px 0 40px 0; }
+  /* line 144, ../sass/style.scss */
+  .block-2-left-text-h2 {
+    text-align: right; }
+  /* line 147, ../sass/style.scss */
+  .block-2-right-text-h2 {
+    text-align: left; }
+  /* line 150, ../sass/style.scss */
+  .block-2-left-text {
+    text-align: right; }
+  /* line 153, ../sass/style.scss */
+  .block-2-right-text {
+    text-align: left; }
+    /* line 155, ../sass/style.scss */
+    .block-2-right-text li {
+      margin-bottom: 40px; }
 
-/* line 135, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
+.block-3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  padding-top: 120px; }
+  /* line 167, ../sass/style.scss */
+  .block-3-wrap {
+    position: relative;
+    height: 60vh; }
+  /* line 171, ../sass/style.scss */
+  .block-3-feat-1, .block-3-feat-3, .block-3-feat-6 {
+    position: absolute;
+    width: 50%; }
+  /* line 175, ../sass/style.scss */
+  .block-3-feat-1 {
+    top: 50px;
+    left: 100px; }
+  /* line 179, ../sass/style.scss */
+  .block-3-feat-3 {
+    top: 170px;
+    left: 340px; }
+  /* line 184, ../sass/style.scss */
+  .block-3-feat-6 {
+    top: 310px;
+    left: 615px; }
+  /* line 188, ../sass/style.scss */
+  .block-3-feat-number {
+    float: left;
+    margin-right: 10px;
+    display: inline; }
+  /* line 197, ../sass/style.scss */
+  .block-3-feat-text {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: "Bebas Neue Bold", sans-serif;
+    line-height: 1.15em;
+    margin-left: 10px;
+    vertical-align: text-top;
+    display: block;
+    padding: 0;
+    border: 0;
+    display: inline-block; }
+  /* line 212, ../sass/style.scss */
+  .block-3-bottom {
+    clear: both;
+    color: #fff;
+    text-align: right;
+    font-size: 18px;
+    font-weight: normal; }
+    /* line 218, ../sass/style.scss */
+    .block-3-bottom ul {
+      padding-left: 0; }
+      /* line 220, ../sass/style.scss */
+      .block-3-bottom ul li {
+        list-style-type: none; }
+
+/* line 227, ../sass/style.scss */
 footer {
   background-color: #000;
   height: 160px;
@@ -4762,18 +4841,18 @@ footer {
   font-weight: 700;
   font-size: 32px; }
 
-/* line 144, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .footer-year {
   text-align: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 700;
+  font-family: "Bebas Neue Bold", sans-serif;
+  font-weight: normal;
   font-size: 32px; }
 
-/* line 158, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .footer-site {
   font-size: 22px; }
 
-/* line 161, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .footer-site span {
   font-size: 14px;
   font-weight: 400; }

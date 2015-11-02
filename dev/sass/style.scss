@@ -3,6 +3,34 @@
 @import "bootstrap";
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
+body {
+	font-family: $font-family-base;
+	font-weight: normal;
+}
+@font-face {
+font-family: 'Bebas Neue Bold';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Bebas Neue Bold'), url('fonts/BEBASNEUE BOLD.woff') format('woff');
+}
+@font-face {
+    font-family: "GloberThin";
+    src: url("fonts/GloberThin/GloberThin.eot");
+    src: url("fonts/GloberThin/GloberThin.eot?#iefix")format("embedded-opentype"),
+    url("fonts/GloberThin/GloberThin.woff") format("woff"),
+    url("fonts/GloberThin/GloberThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GloberBold";
+    src: url("fonts/GloberBold/GloberBold.eot");
+    src: url("fonts/GloberBold/GloberBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/GloberBold/GloberBold.woff") format("woff"),
+    url("fonts/GloberBold/GloberBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 //HEADER
 
 nav {
@@ -35,14 +63,16 @@ nav {
 			color: #fff;
 			font-size: 42px;
 			font-weight: 700;
-			font-family: $font-tale;
+			font-family: $font-bebas-bold;
 			text-transform: uppercase;
 			@include centerer(false, true);
 			i {
 				font-weight: 300;
 				font-size: 28px;
 			}
-			ul li {
+			ul {
+				padding-left: 0;
+				li {
 				list-style-type: none;
 				font-size: 20px;
 				text-transform: none;
@@ -51,6 +81,7 @@ nav {
 				span {
 					color:$blue;
 				}
+			}
 			}
 		}	
 	}
@@ -67,66 +98,127 @@ nav {
 		text-align: center;
 		font-size: 70px;
 		font-weight: 700;
-		font-family: $font-tale;
+		font-family: $font-bebas-bold;
 		color: $dark;
 		text-transform: uppercase;
 		padding-top: 30px;
 		line-height: 1em;
 	}
-	&-left {
-		position: relative;
-		height: 70vh;
-		width: 100%;
-		text-align: right;
-		&-text {			
-			padding: 20px 80px 20px 20px;
-			border-right: 1px solid #fff;
-			color: #fff;
-			text-transform: uppercase;
-			font-family: $font-tale;
-			font-size: 28px;
-			width: 100%;
-			@include centerer(false, true);
-			&-h2 {
-				padding-bottom: 50px;
-			}
-			ul {
-				li {
+	&-center {		
+		font-size: 18px;
+		
+		margin-top: 6%;		
+		//width: 50%;
+		@include centerer(true, true);
+		ul {
+			padding-left: 0;
+			li {
 				list-style-type: none;
-				font-size: 20px;
-				text-transform: none;
-				font-family: $font-family-base;
-				font-weight: 400;	
-				width: 100%;			
+				padding: 8px 0;
+				vertical-align: bottom;
+				img {
+					margin-right: 14px;
+					float: left;
 				}
 			}
-			
 		}
 	}
-	&-right {
+	&-left, &-right {
+		float: left;
+		color: #fff;
+		padding: 20px 70px;
+		width: 50%;
+		padding-bottom: 14%;
+	}
+	&-left {
+		border-right: 2px solid #fff;
+	}
+
+	&-left-text-h2, &-right-text-h2 {
+		font-family: $font-bebas-bold;
+		font-weight: 300;
+		font-size: 24px;
+		text-transform: uppercase;
+		padding: 20px 0 40px 0;
+	}
+	&-left-text-h2 {
+		text-align: right;
+	}
+	&-right-text-h2 {
+		text-align: left;
+	}
+	&-left-text {
+		text-align: right;
+	}
+	&-right-text {
+		text-align: left;
+		li {
+			margin-bottom: 40px;
+		}
+	}
+}
+
+.block-3 {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background-color: #000;
+	padding-top: 120px;
+	&-wrap {
 		position: relative;
-		height: 70vh;
-		width: 100%;
-		&-text {			
-			padding: 20px 20px 20px 80px;
-			color: #fff;
-			text-transform: uppercase;
-			font-family: $font-tale;
-			font-size: 28px;
-			width: 100%;
-			@include centerer(false, true);
-			&-h2 {
-				padding-bottom: 50px;
-			}
-			ul {
-				padding: 0;
-				li {
+		height: 60vh;
+	}
+	&-feat-1, &-feat-3, &-feat-6 {
+		position: absolute;
+		width: 50%;
+	}
+	&-feat-1 {
+		top:50px;
+		left:$block-3-left;
+	}
+	&-feat-3 {
+		top:170px;
+		left:$block-3-left + 240px;
+
+	}
+	&-feat-6 {
+		top:310px;
+		left:$block-3-left + 240px + 275px;
+	}
+	&-feat-number {		
+		float: left;
+		
+		margin-right: 10px;
+			display:inline;
+		img {
+
+		}
+	}
+	&-feat-text {
+		color: #fff;
+		font-size: 36px;
+		text-transform: uppercase;
+		font-weight:normal;
+		font-family: $font-bebas-bold;
+		line-height: 1.15em;
+		margin-left: 10px;
+		//max-height: 121px;
+		vertical-align: text-top;
+		display:block;
+		padding : 0;
+    	border : 0;
+		display:inline-block;
+	}
+	&-bottom {
+		clear: both;
+		color: #fff;
+		text-align: right;
+		font-size: 18px;
+		font-weight: normal;		
+		ul {
+			padding-left: 0;
+			li {
 				list-style-type: none;
-				font-size: 20px;
-				text-transform: none;
-				font-family: $font-family-base;
-				font-weight: 400;				
-				}
 			}
 		}
 	}
@@ -143,8 +235,8 @@ footer {
 .footer {
 	&-year {
 		text-align: center;
-		font-family: $font-tale;
-		font-weight: 700;
+		font-family: $font-bebas-bold;
+		font-weight: normal;
 		font-size: 32px;
 	&-site {
 		
