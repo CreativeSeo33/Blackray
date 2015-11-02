@@ -377,9 +377,12 @@
 
 			  <!-- СЛАЙД 4 -->
 
-
-			  
 			</div> <!-- SLIDER -->
+			<div class="outside">
+			    <p><span id="slider-prev"></span>  <span id="slider-next"></span>
+
+			    </p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -420,7 +423,13 @@
 	    //adaptiveHeight: true,
 	    video: true,
  		useCSS: false,
- 		pager: false
+ 		pager: false,
+ 		controls: true,
+ 		infiniteLoop: false,
+ 		nextSelector: '#slider-next',
+        prevSelector: '#slider-prev',
+ 		nextText: '<img src="http://i.imgur.com/TZDsPC0.png" height="25" width="25"/>',
+ 		prevText: '<img src="http://i.imgur.com/AKjTWvT.png" height="25" width="25"/>'
 	  });
 	});
 </script>

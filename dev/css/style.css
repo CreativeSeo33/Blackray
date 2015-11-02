@@ -4876,7 +4876,7 @@ nav {
 
 /* line 233, ../sass/style.scss */
 .block-4 {
-  padding: 30px 0 50px 0; }
+  padding: 30px 0 30px 0; }
   /* line 236, ../sass/style.scss */
   .block-4-h2, .block-4-h3 {
     text-align: center;
@@ -4919,7 +4919,12 @@ nav {
   border: none;
   box-shadow: none; }
 
-/* line 278, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
+.outside {
+  text-align: center;
+  margin-top: 30px; }
+
+/* line 284, ../sass/style.scss */
 footer {
   background-color: #000;
   height: 160px;
@@ -4928,18 +4933,18 @@ footer {
   font-weight: 700;
   font-size: 32px; }
 
-/* line 287, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .footer-year {
   text-align: center;
   font-family: "Bebas Neue Bold", sans-serif;
   font-weight: normal;
   font-size: 32px; }
 
-/* line 301, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .footer-site {
   font-size: 22px; }
 
-/* line 304, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .footer-site span {
   font-size: 14px;
   font-weight: 400; }
