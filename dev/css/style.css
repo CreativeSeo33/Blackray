@@ -4881,58 +4881,82 @@ nav {
       /* line 235, ../sass/style.scss */
       .block-3-bottom ul li {
         list-style-type: none; }
+  /* line 240, ../sass/style.scss */
+  .block-3-form-div {
+    background-color: rgba(45, 42, 36, 0.9);
+    padding: 20px 50px; }
+    /* line 244, ../sass/style.scss */
+    .block-3-form-div input {
+      background-color: rgba(35, 32, 28, 0.8);
+      color: #332F29;
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+      padding: 5px;
+      margin-bottom: 10px;
+      outline: none;
+      border-radius: 3px;
+      transition: all 0.1s ease-in-out;
+      border: none; }
+    /* line 255, ../sass/style.scss */
+    .block-3-form-div-left {
+      width: 50%;
+      height: 100%; }
+    /* line 259, ../sass/style.scss */
+    .block-3-form-div-right {
+      position: relative;
+      width: 50%;
+      height: 100%; }
 
-/* line 242, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .block-4 {
   padding: 30px 0 30px 0; }
-  /* line 245, ../sass/style.scss */
+  /* line 273, ../sass/style.scss */
   .block-4-h2, .block-4-h3 {
     text-align: center;
     font-family: "Bebas Neue Bold", sans-serif;
     font-weight: normal;
     text-transform: uppercase; }
-  /* line 251, ../sass/style.scss */
+  /* line 279, ../sass/style.scss */
   .block-4-h2 {
     font-size: 48px; }
-  /* line 254, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   .block-4-h3 {
     font-size: 28px;
     margin-bottom: 30px; }
-  /* line 258, ../sass/style.scss */
+  /* line 286, ../sass/style.scss */
   .block-4-description {
     margin: 40px 0;
     font-size: 16px; }
-    /* line 261, ../sass/style.scss */
+    /* line 289, ../sass/style.scss */
     .block-4-description-punkt {
       padding: 2px 0; }
-      /* line 263, ../sass/style.scss */
+      /* line 291, ../sass/style.scss */
       .block-4-description-punkt span {
         font-weight: bold; }
-    /* line 267, ../sass/style.scss */
+    /* line 295, ../sass/style.scss */
     .block-4-description-authors {
       margin-top: 30px; }
-    /* line 270, ../sass/style.scss */
+    /* line 298, ../sass/style.scss */
     .block-4-description-author {
       padding: 2px 0; }
-      /* line 272, ../sass/style.scss */
+      /* line 300, ../sass/style.scss */
       .block-4-description-author span {
         font-weight: bold; }
 
-/* line 279, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .slider {
   margin-top: 50px; }
 
-/* line 282, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .bx-wrapper .bx-viewport {
   border: none;
   box-shadow: none; }
 
-/* line 286, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .outside {
   text-align: center;
   margin-top: 30px; }
 
-/* line 293, ../sass/style.scss */
+/* line 321, ../sass/style.scss */
 footer {
   background-color: #000;
   height: 160px;
@@ -4941,18 +4965,18 @@ footer {
   font-weight: 700;
   font-size: 32px; }
 
-/* line 302, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .footer-year {
   text-align: center;
   font-family: "Bebas Neue Bold", sans-serif;
   font-weight: normal;
   font-size: 32px; }
 
-/* line 316, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .footer-site {
   font-size: 22px; }
 
-/* line 319, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 .footer-site span {
   font-size: 14px;
   font-weight: 400; }
