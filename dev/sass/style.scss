@@ -31,8 +31,11 @@ src: local('fonts/Bebas Neue Bold'), url('fonts/BEBASNEUE BOLD.woff') format('wo
     font-style: normal;
     font-weight: normal;
 }
+.btn{
+	@include button-variant(#fff, #009fff, #009fff);	
+	@include button-size(10px, 35px, 16px, 1em, 1px);
+}
 //HEADER
-
 nav {
 	background-color: $dark;
 	height: 120px;
@@ -85,13 +88,19 @@ nav {
 			}
 		}	
 	}
-
+	&-form{
+		@include centerer(false, true);
+		background: rgba(255,255,255,.6);
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		padding: 40px 10px;
+		.form-group{padding: 0 20px;}
+	}
 }
 
 .navbar-button {
 	margin-right: 55px;	
-	@include button-variant(#fff, #009fff, #009fff);	
-	@include button-size(10px, 35px, 16px, 1em, 1px);
 }
 
 .block-2 {
@@ -174,7 +183,7 @@ nav {
 }
 
 .block-3 {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 	position: relative;
 	background-color: #000;
@@ -237,7 +246,22 @@ nav {
 			}
 		}
 	}
-	
+	&-form{
+		background: rgba(255,255,255,.4);
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		margin-bottom: 30px;
+		.form-group{padding-left:10px;margin: 20px 0;margin-left: 10px}
+		.form-btn{padding: 0;margin: 40px 0;}
+		.btn {padding: 10px 25px;font-size: 14px;background: #1C4B69;border-color: #1C4B69;
+			&:hover, &:focus{
+			    color: #fff;
+			    background-color: #007fcc;
+			    border-color: #0079c2;
+			}
+		}
+	}
 }
 
 .block-4 {
@@ -320,4 +344,40 @@ footer {
 .footer-site span {
 	font-size: 14px;
 	font-weight: 400;
+}
+//forms
+.map {
+	position: relative;
+	&-block{
+		position:absolute;
+		width: 100%;
+		top:150px;
+		height: 0;
+	}
+	&-form{
+		background: rgba(255,255,255,.6);
+		width: 300px;
+		margin: auto;
+		text-align: center;
+		padding: 40px 10px;
+		.form-group{padding: 0 20px;}
+	}
+}
+.modal {
+	&-footer{
+	    background-color: #009fff;
+	    border-color: #009fff;
+	    text-align: center;
+	}
+	&-href{
+		color: #fff;
+		&, &:hover, &:focus{
+			text-decoration:none;
+		}
+	}
+}
+.form{
+	&-legend{
+		font-size: 12px;
+	}
 }
