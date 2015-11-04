@@ -5035,3 +5035,52 @@ footer {
 /* line 383, ../sass/style.scss */
 .form-legend {
   font-size: 12px; }
+
+/* line 391, ../sass/style.scss */
+button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  outline: 0; }
+
+/* line 398, ../sass/style.scss */
+svg {
+  padding: 5px; }
+
+/* line 402, ../sass/style.scss */
+.arrow {
+  cursor: pointer;
+  width: 70px;
+  height: 90px; }
+
+/* line 408, ../sass/style.scss */
+.left {
+  left: 42%; }
+
+/* line 412, ../sass/style.scss */
+.right {
+  left: 58%; }
+
+/* line 416, ../sass/style.scss */
+.left:hover polyline,
+.left:focus polyline {
+  stroke-width: 3; }
+
+/* line 421, ../sass/style.scss */
+.left:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out; }
+
+/* line 426, ../sass/style.scss */
+.right:hover polyline,
+.right:focus polyline {
+  stroke-width: 3; }
+
+/* line 431, ../sass/style.scss */
+.right:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out; }
+
+/* line 436, ../sass/style.scss */
+polyline {
+  transition: all 250ms ease-in-out; }

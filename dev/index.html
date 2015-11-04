@@ -421,10 +421,10 @@
 			  <!-- СЛАЙД 4 -->
 
 			</div> <!-- SLIDER -->
-			<div class="outside">
-			    <p><span id="slider-prev"></span>  <span id="slider-next"></span>
-
-			    </p>
+			<div class="outside">	
+				 <p><span id="slider-prev"></span>  <span id="slider-next"></span></p>	    
+			    
+				
 			</div>
 		</div>
 	</div>
@@ -544,9 +544,9 @@ $(document).ready(function(){
 			controls: true,
 			infiniteLoop: false,
 			nextSelector: '#slider-next',
-	    prevSelector: '#slider-prev',
-			nextText: '<img src="http://i.imgur.com/TZDsPC0.png" height="25" width="25"/>',
-			prevText: '<img src="http://i.imgur.com/AKjTWvT.png" height="25" width="25"/>'
+	    	prevSelector: '#slider-prev',
+	    	nextText: '<button class="arrow right"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve"><polyline fill="none" stroke="#009fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "/></svg></button>',
+        	prevText: '<button class="arrow left"><svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve"><polyline fill="none" stroke="#009fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/></svg></button>'
 	});
 });
 </script>
