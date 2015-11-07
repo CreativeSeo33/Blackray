@@ -4948,7 +4948,7 @@ nav {
       padding: 2px 0; }
       /* line 295, ../sass/style.scss */
       .block-4-description-punkt span {
-        font-weight: 700;
+        font-weight: bold;
         font-family: "GloberBold"; }
       /* line 299, ../sass/style.scss */
       .block-4-description-punkt i {
