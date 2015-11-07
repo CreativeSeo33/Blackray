@@ -109,7 +109,7 @@ nav {
 .block-2 {
 	background: url(../img/BG2.jpg) no-repeat top center;
 	background-size: cover;
-	max-height: 100vh;
+	//max-height: 100vh;
 	width: 100%;
 	position: relative;
 	&-zag {
@@ -183,6 +183,10 @@ nav {
 			line-height: 1.2em;
 		}
 	}
+	&-right-producer {
+		font-weight: 300;
+		font-size: 14px;
+	}
 }
 
 .block-3 {
@@ -231,6 +235,9 @@ nav {
 		padding : 0;
     	border : 0;
 		display:inline-block;
+		i {
+			font-size: 28px;			
+		}
 	}
 	&-bottom {
 		clear: both;
@@ -288,6 +295,9 @@ nav {
 			span {
 				font-weight: 700;
 				font-family: "GloberBold";
+			}
+			i {
+				font-size: 14px;
 			}
 		}
 		&-authors {	
