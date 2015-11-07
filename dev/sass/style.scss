@@ -353,6 +353,9 @@ footer {
 	font-size: 22px;
 	a {
 		color: #fff;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
 	}
 }
 .footer-site span {
