@@ -4716,14 +4716,13 @@ nav {
 
 /* line 64, ../sass/style.scss */
 .block-top {
-  background-image: url(../img/BG_top.jpg);
+  background: url(../img/BG_top.jpg) no-repeat top center;
   background-size: cover;
-  height: 100vh;
   width: 100%;
   position: relative; }
   /* line 70, ../sass/style.scss */
   .block-top-offer {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     width: 100%; }
     /* line 75, ../sass/style.scss */

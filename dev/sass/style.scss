@@ -62,14 +62,14 @@ nav {
 }
 
 .block-top {
-	background-image: url(../img/BG_top.jpg);
+	background: url(../img/BG_top.jpg) no-repeat top center;
 	background-size: cover;
-	height: 100vh;
+	//height: 100%;
 	width: 100%;
 	position: relative;
 	&-offer {
 			
-		height: 100vh;
+		min-height: 100vh;
 		position: relative;
 		width: 100%;
 		&-text {
