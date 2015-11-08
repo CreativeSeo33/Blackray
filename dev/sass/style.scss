@@ -54,6 +54,13 @@ nav {
 
 //HEADER
 
+.form-h2 {
+	font-family: $font-bebas-bold;
+	text-transform: uppercase;
+	font-size: 28px;
+	padding: 10px;
+}
+
 .block-top {
 	background-image: url(../img/BG_top.jpg);
 	background-size: cover;
@@ -395,7 +402,7 @@ footer {
 }
 .form{
 	&-legend{
-		font-size: 12px;
+		font-size: 14px;
 	}
 }
 

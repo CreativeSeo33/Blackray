@@ -4708,18 +4708,25 @@ nav {
   font-size: 18px; }
 
 /* line 57, ../sass/style.scss */
+.form-h2 {
+  font-family: "Bebas Neue Bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 10px; }
+
+/* line 64, ../sass/style.scss */
 .block-top {
   background-image: url(../img/BG_top.jpg);
   background-size: cover;
   height: 100vh;
   width: 100%;
   position: relative; }
-  /* line 63, ../sass/style.scss */
+  /* line 70, ../sass/style.scss */
   .block-top-offer {
     height: 100vh;
     position: relative;
     width: 100%; }
-    /* line 68, ../sass/style.scss */
+    /* line 75, ../sass/style.scss */
     .block-top-offer-text {
       color: #fff;
       font-size: 42px;
@@ -4729,24 +4736,24 @@ nav {
       position: absolute;
       top: 50%;
       transform: translate(0, -50%); }
-      /* line 75, ../sass/style.scss */
+      /* line 82, ../sass/style.scss */
       .block-top-offer-text i {
         font-weight: 300;
         font-size: 28px; }
-      /* line 79, ../sass/style.scss */
+      /* line 86, ../sass/style.scss */
       .block-top-offer-text ul {
         padding-left: 0; }
-        /* line 81, ../sass/style.scss */
+        /* line 88, ../sass/style.scss */
         .block-top-offer-text ul li {
           list-style-type: none;
           font-size: 20px;
           text-transform: none;
           font-family: "GloberBold", sans-serif;
           font-weight: 400; }
-          /* line 87, ../sass/style.scss */
+          /* line 94, ../sass/style.scss */
           .block-top-offer-text ul li span {
             color: #0198F3; }
-  /* line 94, ../sass/style.scss */
+  /* line 101, ../sass/style.scss */
   .block-top-form {
     position: absolute;
     top: 50%;
@@ -4756,21 +4763,21 @@ nav {
     margin: auto;
     text-align: center;
     padding: 40px 10px; }
-    /* line 101, ../sass/style.scss */
+    /* line 108, ../sass/style.scss */
     .block-top-form .form-group {
       padding: 0 20px; }
 
-/* line 105, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .navbar-button {
   margin-right: 55px; }
 
-/* line 109, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .block-2 {
   background: url(../img/BG2.jpg) no-repeat top center;
   background-size: cover;
   width: 100%;
   position: relative; }
-  /* line 115, ../sass/style.scss */
+  /* line 122, ../sass/style.scss */
   .block-2-zag {
     text-align: center;
     font-size: 70px;
@@ -4780,91 +4787,91 @@ nav {
     text-transform: uppercase;
     padding-top: 30px;
     line-height: 1em; }
-  /* line 125, ../sass/style.scss */
+  /* line 132, ../sass/style.scss */
   .block-2-center {
     font-size: 18px;
     margin-top: 6%; }
-    /* line 131, ../sass/style.scss */
+    /* line 138, ../sass/style.scss */
     .block-2-center ul {
       padding-left: 0; }
-      /* line 133, ../sass/style.scss */
+      /* line 140, ../sass/style.scss */
       .block-2-center ul li {
         list-style-type: none;
         padding: 8px 0;
         vertical-align: bottom; }
-        /* line 137, ../sass/style.scss */
+        /* line 144, ../sass/style.scss */
         .block-2-center ul li img {
           margin-right: 14px;
           float: left; }
-  /* line 144, ../sass/style.scss */
+  /* line 151, ../sass/style.scss */
   .block-2-left, .block-2-right {
     float: left;
     color: #fff;
     padding: 20px 70px;
     width: 50%;
     padding-bottom: 14%; }
-  /* line 151, ../sass/style.scss */
+  /* line 158, ../sass/style.scss */
   .block-2-left {
     border-right: 2px solid #fff; }
-  /* line 155, ../sass/style.scss */
+  /* line 162, ../sass/style.scss */
   .block-2-left-text-h2, .block-2-right-text-h2 {
     font-family: "Bebas Neue Bold", sans-serif;
     font-weight: 300;
     font-size: 24px;
     text-transform: uppercase;
     padding: 20px 0 40px 0; }
-  /* line 162, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .block-2-left-text-h2 {
     text-align: right; }
-  /* line 165, ../sass/style.scss */
+  /* line 172, ../sass/style.scss */
   .block-2-right-text-h2 {
     text-align: left; }
-  /* line 168, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   .block-2-left-text {
     text-align: right; }
-  /* line 171, ../sass/style.scss */
+  /* line 178, ../sass/style.scss */
   .block-2-right-text {
     text-align: left; }
-    /* line 173, ../sass/style.scss */
+    /* line 180, ../sass/style.scss */
     .block-2-right-text li {
       margin-bottom: 40px;
       height: 40px;
       line-height: 40px; }
-      /* line 177, ../sass/style.scss */
+      /* line 184, ../sass/style.scss */
       .block-2-right-text li img {
         vertical-align: top; }
-    /* line 181, ../sass/style.scss */
+    /* line 188, ../sass/style.scss */
     .block-2-right-text li:last-child {
       line-height: 1.2em; }
-  /* line 186, ../sass/style.scss */
+  /* line 193, ../sass/style.scss */
   .block-2-right-producer {
     font-weight: 300;
     font-size: 14px; }
 
-/* line 192, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .block-3 {
   height: 100%;
   width: 100%;
   background-color: #000;
   padding-top: 120px; }
-  /* line 202, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   .block-3-feat-1, .block-3-feat-3, .block-3-feat-6 {
     width: 50%; }
-  /* line 206, ../sass/style.scss */
+  /* line 213, ../sass/style.scss */
   .block-3-feat-1 {
     margin-left: 100px; }
-  /* line 209, ../sass/style.scss */
+  /* line 216, ../sass/style.scss */
   .block-3-feat-3 {
     margin-left: 340px; }
-  /* line 213, ../sass/style.scss */
+  /* line 220, ../sass/style.scss */
   .block-3-feat-6 {
     margin-left: 620px; }
-  /* line 216, ../sass/style.scss */
+  /* line 223, ../sass/style.scss */
   .block-3-feat-number {
     float: left;
     margin-right: 10px;
     display: inline; }
-  /* line 224, ../sass/style.scss */
+  /* line 231, ../sass/style.scss */
   .block-3-feat-text {
     color: #fff;
     font-size: 36px;
@@ -4878,10 +4885,10 @@ nav {
     padding: 0;
     border: 0;
     display: inline-block; }
-    /* line 238, ../sass/style.scss */
+    /* line 245, ../sass/style.scss */
     .block-3-feat-text i {
       font-size: 28px; }
-  /* line 242, ../sass/style.scss */
+  /* line 249, ../sass/style.scss */
   .block-3-bottom {
     clear: both;
     color: #fff;
@@ -4889,95 +4896,95 @@ nav {
     font-size: 18px;
     font-weight: normal;
     padding: 35px 0; }
-    /* line 249, ../sass/style.scss */
+    /* line 256, ../sass/style.scss */
     .block-3-bottom ul {
       padding-left: 0; }
-      /* line 251, ../sass/style.scss */
+      /* line 258, ../sass/style.scss */
       .block-3-bottom ul li {
         list-style-type: none; }
-  /* line 256, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   .block-3-form {
     background: rgba(255, 255, 255, 0.4);
     width: 100%;
     margin: auto;
     text-align: center;
     margin-bottom: 30px; }
-    /* line 262, ../sass/style.scss */
+    /* line 269, ../sass/style.scss */
     .block-3-form .form-group {
       padding-left: 10px;
       margin: 20px 0;
       margin-left: 10px; }
-    /* line 263, ../sass/style.scss */
+    /* line 270, ../sass/style.scss */
     .block-3-form .form-btn {
       padding: 0;
       margin: 40px 0; }
-    /* line 264, ../sass/style.scss */
+    /* line 271, ../sass/style.scss */
     .block-3-form .btn {
       padding: 10px 25px;
       font-size: 14px;
       background: #1C4B69;
       border-color: #1C4B69; }
-      /* line 265, ../sass/style.scss */
+      /* line 272, ../sass/style.scss */
       .block-3-form .btn:hover, .block-3-form .btn:focus {
         color: #fff;
         background-color: #007fcc;
         border-color: #0079c2; }
 
-/* line 274, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .block-4 {
   padding: 30px 0 30px 0; }
-  /* line 277, ../sass/style.scss */
+  /* line 284, ../sass/style.scss */
   .block-4-h2, .block-4-h3 {
     text-align: center;
     font-family: "Bebas Neue Bold", sans-serif;
     font-weight: normal;
     text-transform: uppercase; }
-  /* line 283, ../sass/style.scss */
+  /* line 290, ../sass/style.scss */
   .block-4-h2 {
     font-size: 48px; }
-  /* line 286, ../sass/style.scss */
+  /* line 293, ../sass/style.scss */
   .block-4-h3 {
     font-size: 28px;
     margin-bottom: 30px; }
-  /* line 290, ../sass/style.scss */
+  /* line 297, ../sass/style.scss */
   .block-4-description {
     margin: 40px 0;
     font-size: 16px; }
-    /* line 293, ../sass/style.scss */
+    /* line 300, ../sass/style.scss */
     .block-4-description-punkt {
       padding: 2px 0; }
-      /* line 295, ../sass/style.scss */
+      /* line 302, ../sass/style.scss */
       .block-4-description-punkt span {
         font-weight: bold;
         font-family: "GloberBold"; }
-      /* line 299, ../sass/style.scss */
+      /* line 306, ../sass/style.scss */
       .block-4-description-punkt i {
         font-size: 14px; }
-    /* line 303, ../sass/style.scss */
+    /* line 310, ../sass/style.scss */
     .block-4-description-authors {
       margin-top: 30px; }
-    /* line 306, ../sass/style.scss */
+    /* line 313, ../sass/style.scss */
     .block-4-description-author {
       padding: 2px 0; }
-      /* line 308, ../sass/style.scss */
+      /* line 315, ../sass/style.scss */
       .block-4-description-author span {
         font-weight: bold; }
 
-/* line 315, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .slider {
   margin-top: 50px; }
 
-/* line 318, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .bx-wrapper .bx-viewport {
   border: none;
   box-shadow: none; }
 
-/* line 322, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .outside {
   text-align: center;
   margin-top: 30px; }
 
-/* line 329, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 footer {
   background-color: #000;
   height: 160px;
@@ -4986,109 +4993,109 @@ footer {
   font-weight: 700;
   font-size: 32px; }
 
-/* line 338, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .footer-year {
   text-align: center;
   font-family: "Bebas Neue Bold", sans-serif;
   font-weight: normal;
   font-size: 32px; }
 
-/* line 352, ../sass/style.scss */
+/* line 359, ../sass/style.scss */
 .footer-site {
   font-size: 22px; }
-  /* line 354, ../sass/style.scss */
+  /* line 361, ../sass/style.scss */
   .footer-site a {
     color: #fff; }
-    /* line 356, ../sass/style.scss */
+    /* line 363, ../sass/style.scss */
     .footer-site a:hover, .footer-site a:focus {
       text-decoration: none; }
 
-/* line 361, ../sass/style.scss */
+/* line 368, ../sass/style.scss */
 .footer-site span {
   font-size: 14px;
   font-weight: 400; }
 
-/* line 366, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 .map {
   position: relative; }
-  /* line 368, ../sass/style.scss */
+  /* line 375, ../sass/style.scss */
   .map-block {
     position: absolute;
     width: 100%;
     top: 150px;
     height: 0; }
-  /* line 374, ../sass/style.scss */
+  /* line 381, ../sass/style.scss */
   .map-form {
     background: rgba(255, 255, 255, 0.6);
     width: 300px;
     margin: auto;
     text-align: center;
     padding: 40px 10px; }
-    /* line 380, ../sass/style.scss */
+    /* line 387, ../sass/style.scss */
     .map-form .form-group {
       padding: 0 20px; }
 
-/* line 384, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .modal-footer {
   background-color: #009fff;
   border-color: #009fff;
   text-align: center; }
-/* line 389, ../sass/style.scss */
+/* line 396, ../sass/style.scss */
 .modal-href {
   color: #fff; }
-  /* line 391, ../sass/style.scss */
+  /* line 398, ../sass/style.scss */
   .modal-href, .modal-href:hover, .modal-href:focus {
     text-decoration: none; }
 
-/* line 397, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .form-legend {
-  font-size: 12px; }
+  font-size: 14px; }
 
-/* line 405, ../sass/style.scss */
+/* line 412, ../sass/style.scss */
 button {
   -webkit-appearance: none;
   background: transparent;
   border: 0;
   outline: 0; }
 
-/* line 412, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 svg {
   padding: 5px; }
 
-/* line 416, ../sass/style.scss */
+/* line 423, ../sass/style.scss */
 .arrow {
   cursor: pointer;
   width: 70px;
   height: 90px; }
 
-/* line 422, ../sass/style.scss */
+/* line 429, ../sass/style.scss */
 .left {
   left: 42%; }
 
-/* line 426, ../sass/style.scss */
+/* line 433, ../sass/style.scss */
 .right {
   left: 58%; }
 
-/* line 430, ../sass/style.scss */
+/* line 437, ../sass/style.scss */
 .left:hover polyline,
 .left:focus polyline {
   stroke-width: 3; }
 
-/* line 435, ../sass/style.scss */
+/* line 442, ../sass/style.scss */
 .left:active polyline {
   stroke-width: 6;
   transition: all 100ms ease-in-out; }
 
-/* line 440, ../sass/style.scss */
+/* line 447, ../sass/style.scss */
 .right:hover polyline,
 .right:focus polyline {
   stroke-width: 3; }
 
-/* line 445, ../sass/style.scss */
+/* line 452, ../sass/style.scss */
 .right:active polyline {
   stroke-width: 6;
   transition: all 100ms ease-in-out; }
 
-/* line 450, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 polyline {
   transition: all 250ms ease-in-out; }
